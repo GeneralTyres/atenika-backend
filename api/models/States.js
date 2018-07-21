@@ -25,8 +25,8 @@ module.exports = {
       type:'number'
     },
     description: {
-      type: 'string',
-      columnType: 'text(4000)'
+      type:'string',
+      columnType: 'longtext'
     },
     population: {
       type: 'number'

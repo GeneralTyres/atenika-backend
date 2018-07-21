@@ -22,7 +22,8 @@ module.exports = {
       type: 'string'
     },
     description: {
-      type: 'string'
+      type:'string',
+      columnType: 'longtext'
     },
     flag: {
       type:'string',
