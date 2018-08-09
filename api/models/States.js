@@ -31,8 +31,8 @@ module.exports = {
     population: {
       type: 'number'
     },
-    economy: {
-      type: 'number'
+    traits: {
+      type: 'string'
     },
     civilisation: {
       type: 'number'
