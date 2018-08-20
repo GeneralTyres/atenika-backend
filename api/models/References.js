@@ -1,12 +1,12 @@
 /**
- * States.js
+ * References.js
  *
  * @description :: A model definition.  Represents a database table/collection/etc.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
  */
 
 module.exports = {
-  tableName: 'states',
+  tableName: 'references',
   primaryKey: 'id',
   attributes: {
 
@@ -18,33 +18,21 @@ module.exports = {
       unique:true,
       autoIncrement:true
     },
-    countryId: {
-      type:'number'
+    youTubeURL: {
+      type: 'string',
+      columnType: 'longtext'
     },
-    areaId: {
-      type:'number'
-    },
-    description: {
+    wikipediaURL: {
       type:'string',
       columnType: 'longtext'
     },
-    population: {
-      type: 'number'
+    internetArchiveURL: {
+      type:'string',
+      columnType: 'longtext'
     },
-    traits: {
-      type: 'string'
-    },
-    civilisation: {
-      type: 'number'
-    },
-    name: {
-      type: 'string'
-    },
-    date: {
-      type:'string'
-    },
-    referenceId: {
-      type: 'number'
+    referenceText: {
+      type:'string',
+      columnType: 'longtext'
     }
 
 
@@ -60,3 +48,4 @@ module.exports = {
   },
 
 };
+
