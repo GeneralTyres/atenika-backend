@@ -25,6 +25,9 @@ module.exports = {
       type:'string',
       columnType: 'longtext'
     },
+    zoomLevel: {
+      type: 'number'
+    },
     icon: {
       type:'string',
       columnType: 'longtext'
