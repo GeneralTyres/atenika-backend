@@ -30,9 +30,11 @@ module.exports = {
     date: {
       type:'number'
     },
-    reference: {
-      type: 'string',
-      columnType: 'text(1000)'
+    inExile: {
+      type:'number'
+    },
+    referenceId: {
+      type: 'number'
     }
 
 

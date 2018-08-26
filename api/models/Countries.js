@@ -34,6 +34,9 @@ module.exports = {
     },
     toDate: {
       type: 'string'
+    },
+    referenceId: {
+      type: 'number'
     }
 
 

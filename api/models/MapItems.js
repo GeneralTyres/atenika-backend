@@ -28,6 +28,12 @@ module.exports = {
       type:'string',
       columnType: 'longtext'
     },
+    latitude: {
+      type:'number'
+    },
+    longitude: {
+      type: 'number'
+    },
     image: {
       type:'string',
       columnType: 'longtext'
